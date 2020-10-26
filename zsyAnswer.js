@@ -355,11 +355,9 @@ function main() {
         } else {
             // toastLog("没有找到 “争上游答题”或“双人对战” 的开始页！请检查是否进入相关界面！");
             console.error("没有找到 “争上游答题”或“双人对战”  开始页！请检查是否进入相关界面！");
-            console.log("停止");
-            exit();
         }
     }
-    console.hide();
+    //console.hide();
 }
 
 // main();
